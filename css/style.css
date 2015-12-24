@@ -8,6 +8,7 @@ body {
     background-color: #fff;
     color: #515151;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
 }
 
 .navbar {
@@ -24,13 +25,11 @@ a:hover {
 }
 
 a.navbar-brand {
-    letter-spacing: 2px;
     font-size: 12px;
     border: none;
 }
 
 .navbar-nav a {
-    letter-spacing: 2px;
     font-weight: 600;
     font-size: 13px;
     border: none;
@@ -60,28 +59,22 @@ nav.navbar-pagetop a {
   color: #000000;
 }
 
-@media (min-width: 0px){
-  .firstpage {
-      height: 640px;
-      background: url('../images/student.jpg') no-repeat center center;
-      -webkit-background-size: cover;
-  }
+div.firstpage {
+    height: 640px;
+    background: url('../images/student.jpg') no-repeat center center;
+    -webkit-background-size: cover;
 }
 
 @media (min-width: 0px) {
   h1.description {
       font-size: 62px;
       margin-top: 160px;
-      letter-spacing: 5px;
-      font-family: 'Trebuchet MS', sans-serif;
       font-weight: 600;
       /*color: #16C4A1;*/
       color: #fff;
   }
   h2.description {
       font-size: 50px;
-      letter-spacing: 3px;
-      font-family: 'Trebuchet MS', sans-serif;
       font-weight: 300;
       color: #515151;
       border-bottom: solid 2px #aaa;
@@ -94,47 +87,29 @@ nav.navbar-pagetop a {
   }
 }
 
-@media (min-width: 600px) {
-  h1.description {
-  }
-}
-
 p.description-sub {
     font-size: 20px;
-    margin-top: 40px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     color: #515151;
-}
-
-.code-example h2 {
-  font-family: 'Source Code Pro', Monaco, courier, monospace;
-  font-size: 24px;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 50px;
+    font-weight: 300;
 }
 
 @media (min-width: 0px) {
   div.content {
      padding-left: 10px;
-     padding-bottom: 10px;
-     background-color: #fff;
+     padding-bottom: 20px;
+     background-color: #eee;
      text-align: center;
+     color: #515151;
   }
   .content h1 {
     color: #DC5439;
-    font-family: 'Open Sans', sans-serif;
   }
   h2.content-caps {
-    padding-top: 20px;
-    font-size: 26px;
-    letter-spacing: 4px;
-    color: #16C4A1;
-  }
-  .content h2 {
-    font-size: 26px;
-    color: #16C4A1;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
   }
   .content p {
     font-size: 17px;
@@ -176,36 +151,86 @@ div.dark-50p {
     text-align: right;
 }
 
-a.ctabutton {
-    background-color: #ff6363;
-    color: #fff;
-    border: none;
+div.btn {
+    border-radius: 0;
     padding: 12px;
-    letter-spacing: 2px;
     font-weight: 600;
     font-size: 13px;
     margin-top: 3px;
 }
 
-a.ctabutton:hover {
-    background-color: #ef5353;
+div.btn-big {
+    margin-top: 10px;
+    width: 350px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
-a.ctabutton-big {
-    padding: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: 50px;
-    font-size: 15px;
+div.btn-cta {
+    background-color: #ff6363;
+    color: #fff;
+}
+
+div.btn-cta a {
+    color: #fff;
+}
+
+div.btn-cta:hover {
+    background-color: #E53D3D;
+}
+
+div.btn-learnmore {
+    border: solid 2px #ff6363;
+    color: #ff6363;
+}
+
+div.btn-learnmore a {
+    color: #ff6363;
+}
+
+div.btn-learnmore:hover {
+    background-color: #fff;
+    border: solid 2px #FF8787;
 }
 
 .floating-box {
     background-color: rgba(255, 255, 255, 0.9);
     width: 500px;
-    height: 380px;
+    height: 480px;
     position: absolute;
     margin-left: 80px;
     margin-top: 80px;
     padding: 30px;
 }
+
+@media (min-width: 0px) {
+div.lotsoftext {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    background-color: #fff;
+}
+}
+
+@media (min-width: 768px) {
+div.lotsoftext {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 60px;
+    background-color: #fff;
+}
+}
+
+div.lotsoftext p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+div.lotsoftext h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
 
