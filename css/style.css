@@ -8,7 +8,7 @@ body {
     background-color: #fff;
     color: #515151;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .navbar {
@@ -97,8 +97,10 @@ p.description-sub {
 @media (min-width: 0px) {
   div.content {
      padding-left: 10px;
-     padding-bottom: 20px;
-     background-color: #eee;
+     padding-bottom: 40px;
+     padding-top: 20px;
+
+     background-color: #fafafa;
      text-align: center;
      color: #515151;
   }
@@ -107,19 +109,24 @@ p.description-sub {
   }
   h2.content-caps {
     padding-top: 10px;
+    padding-bottom: 20px;
     font-size: 20px;
     font-weight: 600;
   }
-  .content p {
+  p.content {
     font-size: 17px;
+    padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
   }
 }
 
-div.dark-50p {
+div.dark-20p {
   background-color: rgba(0, 0, 0, 0.2);
-  height: 100%;
+}
+
+div.dark-50p {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .empty-160px {
@@ -194,7 +201,7 @@ div.btn-learnmore:hover {
 }
 
 .floating-box {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     width: 500px;
     height: 480px;
     position: absolute;
@@ -208,17 +215,23 @@ div.lotsoftext {
     margin-left: 0px;
     margin-right: 0px;
     padding: 20px;
-    background-color: #fff;
 }
 }
 
 @media (min-width: 768px) {
 div.lotsoftext {
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 60px;
-    background-color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: #fafafa;
 }
+}
+
+div.lotsoftext-img {
+    background: url("../images/53.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 div.lotsoftext p {
@@ -265,4 +278,8 @@ p.arrow-both {
 }
 p.arrow-right {
   padding-right: 80px;
+}
+
+div.thealfieway {
+    padding: 80px;
 }
