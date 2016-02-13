@@ -64,6 +64,13 @@ div.firstpage {
     -webkit-background-size: cover;
 }
 
+div.signuppage {
+    height: 850px;
+    background: url('../images/meiske.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+}
+
+
 @media (min-width: 0px) {
   h1.description {
       font-size: 62px;
