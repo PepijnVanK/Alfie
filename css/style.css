@@ -60,7 +60,7 @@ nav.navbar-pagetop a {
 
 div.firstpage {
     height: 640px;
-    background: url('../images/front page background 2.jpeg') no-repeat center center;
+    background: url('../images/front page background 2.jpeg') no-repeat center -20px;
     -webkit-background-size: cover;
 }
 
@@ -254,6 +254,7 @@ div.lotsoftext-dark {
 div.lotsoftext-disclaimer {
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 30px;
     padding: 50px;
     padding-left: 300px;
     padding-right: 300px;
